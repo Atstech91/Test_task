@@ -1,0 +1,10 @@
+<div class="container" style="display: block">
+  <h6>Radar Chart</h6>
+      <canvas baseChart
+              [datasets]="radarChartData"
+              [labels]="radarChartLabels"
+              [chartType]="radarChartType"></canvas>
+</div>
+<div class="container btn-box d-flex justify-content-center mt-5">
+  <button class="btn" (click)="randomize()">Randomize</button>
+</div>

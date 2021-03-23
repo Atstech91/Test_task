@@ -1,0 +1,39 @@
+<header class="site-header sticky-top py-1 bg-dark">
+  <nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a id="logo" class="py-2" routerLink="/home-page" aria-label="Product">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+    </a>
+      <a class="nav-link" routerLink="/home-page">Home</a>
+    <a class="nav-link" routerLink="/line-chart">Line Chart</a>
+    <a class="nav-link" routerLink="/bar-chart">Bar Chart</a>
+    <a class="nav-link" routerLink="/doughnut-chart">Doughnut Chart</a>
+    <a class="nav-link" routerLink="/radar-chart">Radar Chart</a>
+    <a class="nav-link" routerLink="/pie-chart">Pie Chart</a>
+  </nav>
+</header>
+
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="bg-dark">
+    <div class="bg-dark p-2 d-flex justify-content-around">
+      <div class="phone">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+        </svg>
+        <span id="phone">+7(000) 000-00-00</span>
+      </div>
+
+      <div class="mail">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+        </svg>
+        <span id="mail">test@mail.com</span>
+      </div>
+    </div>
+
+    <div class="copy text-center p-2">
+      <p>&copy; All rights reserved</p>
+    </div>
+</footer>

@@ -1,0 +1,13 @@
+<div class="container" style="display: block">
+    <h6>Bar Chart</h6>
+    <canvas baseChart
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [options]="barChartOptions"
+    [legend]="barChartLegend"
+    [chartType]="barChartType">
+    </canvas>
+</div>
+<div class="container btn-box d-flex justify-content-center mt-5">
+  <button class="btn" (click)="randomize()">Randomize</button>
+</div>

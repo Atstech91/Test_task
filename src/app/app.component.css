@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+a {
+  color: #fff;
+  transition: all 600ms;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover {
+  color: #7EC2D7;
+  transform: scale(1.1);
+
+}
+
+header {
+
+  margin-bottom: 30px;
+}
+
+.main-text {
+  margin-bottom: 40px;
+}
+
+#logo:hover {
+  transform: rotate(360deg) scale(1.5);
+
+}
+
+h3, h6 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+button {
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: all 600ms;
+  background: #7EC2D7;
+  color: #fff;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background: #7EC2D7;
+  color: #fff;
+}
+
+
+
+.container > h6 {
+  font-size: 1.3em;
+}
+
+footer {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 200px;
+}
+
+.phone, .mail {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+svg {
+  color: #fff;
+}
+
+span {
+  color: #fff;
+  margin-left: 10px;
+}
+
+#phone:hover {
+  color: #7EC2D7;
+  transition: all 800ms;
+}
+
+#mail:hover {
+  color: #7EC2D7;
+  transition: all 800ms;
+}
+
+.copy {
+  border-top: 2px solid #7EC2D7;
+}
+
+.copy > p {
+  color: #fff;
+  margin-top: 10px;
+}

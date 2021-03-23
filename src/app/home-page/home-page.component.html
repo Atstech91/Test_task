@@ -1,0 +1,28 @@
+<div class="container">
+  <h3 class="main-text text-center mt-5">Test Task for Ftontend Develloper</h3>
+</div>
+
+<div class="mb-5 container" display="block">
+
+  <h6>Line Chart</h6>
+
+  <canvas baseChart
+                [datasets]="lineChartData"
+                [labels]="lineChartLabels"
+                [options]="lineChartOptions"
+                [legend]="lineChartLegend"
+                [chartType]="lineChartType"></canvas>
+</div>
+
+<div class="mb-5 container" style="display: block">
+
+  <h6>Bar Chart</h6>
+
+    <canvas baseChart
+    [datasets]="barChartData"
+    [labels]="barChartLabels"
+    [options]="barChartOptions"
+    [legend]="barChartLegend"
+    [chartType]="barChartType">
+    </canvas>
+</div>
